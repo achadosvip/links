@@ -23,24 +23,30 @@ header {
   overflow: hidden;
 }
 
-header::before {
-  content: '';
+/* Ícones decorativos */
+.header-icons {
   position: absolute;
-  top: -60px; right: -60px;
-  width: 220px; height: 220px;
-  border-radius: 50%;
-  background: var(--verde);
-  opacity: 0.08;
+  inset: 0;
+  pointer-events: none;
 }
 
-header::after {
-  content: '';
+.header-icon {
   position: absolute;
-  bottom: -40px; left: -40px;
-  width: 160px; height: 160px;
-  border-radius: 50%;
-  background: var(--rosa);
-  opacity: 0.10;
+  font-size: 28px;
+  opacity: 0.18;
+  animation: floatIcon 6s ease-in-out infinite;
+}
+
+.header-icon:nth-child(1) { top: 10%; left: 4%;  font-size: 32px; animation-delay: 0s;    } /* bolsa */
+.header-icon:nth-child(2) { top: 60%; left: 3%;  font-size: 24px; animation-delay: 1s;    } /* caixa */
+.header-icon:nth-child(3) { top: 15%; right: 4%; font-size: 26px; animation-delay: 0.5s;  } /* etiqueta */
+.header-icon:nth-child(4) { top: 65%; right: 5%; font-size: 28px; animation-delay: 1.5s;  } /* lupa */
+.header-icon:nth-child(5) { top: 38%; left: 7%;  font-size: 22px; animation-delay: 2s;    } /* carrinho */
+.header-icon:nth-child(6) { top: 35%; right: 7%; font-size: 22px; animation-delay: 2.5s;  } /* estrela */
+
+@keyframes floatIcon {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50%       { transform: translateY(-8px) rotate(5deg); }
 }
 
 .logo-wrap {

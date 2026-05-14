@@ -16,7 +16,7 @@ const CONFIG = {
 
     // Logo: coloque o arquivo em assets/ e informe o nome aqui.
     // Se deixar vazio ("") será exibido o texto do nome no lugar.
-    logo: "", // ex: "logo.png"
+    logo: "logo.png", // ex: "logo.png"
     logoAlt: "Achados VIP",
   },
 
@@ -27,18 +27,18 @@ const CONFIG = {
   // ----------------------------------------------------------
   fonts: {
     titulo: "'Montserrat', sans-serif",   // Fonte dos títulos
-    corpo:  "'Open Sans', sans-serif",    // Fonte do texto geral
+    corpo: "'Open Sans', sans-serif",    // Fonte do texto geral
   },
 
   // ----------------------------------------------------------
   // CORES
   // ----------------------------------------------------------
   cores: {
-    verde:      "#7a9e7e",
-    rosa:       "#c08080",
-    rosaClaro:  "#f0dada",
-    fundo:      "#faf8f6",
-    texto:      "#2e2e2e",
+    verde: "#7a9e7e",
+    rosa: "#c08080",
+    rosaClaro: "#f0dada",
+    fundo: "#faf8f6",
+    texto: "#2e2e2e",
     textoSuave: "#7a7a7a",
   },
 
@@ -67,8 +67,8 @@ const CONFIG = {
       emoji: "🥂",
       imagem: "",
       shopee: "SEU_LINK_SHOPEE_001",
-      ml:     "SEU_LINK_ML_001",
-      tags:   "taça vidro mesa elegante diamond âmbar",
+      ml: "SEU_LINK_ML_001",
+      tags: "taça vidro mesa elegante diamond âmbar",
     },
     {
       id: "002",
@@ -79,8 +79,8 @@ const CONFIG = {
       emoji: "🫙",
       imagem: "",
       shopee: "SEU_LINK_SHOPEE_002",
-      ml:     "SEU_LINK_ML_002",
-      tags:   "organizador giratório alimentos grãos compartimentos cozinha",
+      ml: "SEU_LINK_ML_002",
+      tags: "organizador giratório alimentos grãos compartimentos cozinha",
     },
     {
       id: "003",
@@ -91,8 +91,8 @@ const CONFIG = {
       emoji: "🧂",
       imagem: "",
       shopee: "SEU_LINK_SHOPEE_003",
-      ml:     "SEU_LINK_ML_003",
-      tags:   "tempero inox pote armário cozinha giratório organização",
+      ml: "SEU_LINK_ML_003",
+      tags: "tempero inox pote armário cozinha giratório organização",
     },
   ],
 };
