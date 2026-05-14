@@ -176,7 +176,8 @@ header .slogan {
 }
 
 .search-wrapper input::placeholder {
-  color: #bbb;
+  color: #9d9d9d;
+  font-weight: 500;
 }
 
 .search-icon {
@@ -485,4 +486,16 @@ footer a {
   letter-spacing: 0.4px;
 
   backdrop-filter: blur(6px);
+}
+
+.header-mini-text {
+  margin-top: 10px;
+
+  font-size: 13px;
+
+  color: var(--texto-suave);
+
+  font-weight: 500;
+
+  opacity: 0.9;
 }
