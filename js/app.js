@@ -88,7 +88,7 @@ function montarProdutos() {
       </div>
       <div class="product-links">
         <a href="${p.shopee}" target="_blank" class="btn-shopee">🛒 Ver na Shopee</a>
-        <a href="${p.ml}"     target="_blank" class="btn-ml">🛒 Ver no Mercado Livre</a>
+        <a href="${p.ml}"     target="_blank" class="btn-ml">📦 Ver no Mercado Livre</a>
       </div>`;
 
     lista.appendChild(card);
