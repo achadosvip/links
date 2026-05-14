@@ -149,7 +149,7 @@ header h1 {
 }
 
 header .slogan {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--texto-suave);
   margin-top: 6px;
   font-weight: 300;
@@ -260,9 +260,22 @@ header .slogan {
 }
 
 @keyframes destacar {
-  0%   { transform: scale(0.97); opacity: 0.5; box-shadow: 0 0 0 0 rgba(192,128,128,0); }
-  60%  { transform: scale(1.02); box-shadow: 0 0 0 6px rgba(192,128,128,0.15); }
-  100% { transform: scale(1);    opacity: 1;   box-shadow: 0 4px 24px rgba(0,0,0,0.08); }
+  0% {
+    transform: scale(0.97);
+    opacity: 0.5;
+    box-shadow: 0 0 0 0 rgba(192, 128, 128, 0);
+  }
+
+  60% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 6px rgba(192, 128, 128, 0.15);
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  }
 }
 
 .product-card:hover {
@@ -409,7 +422,7 @@ footer {
 }
 
 footer p {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -428,7 +441,7 @@ footer a {
 }
 
 .footer-disclaimer {
-  font-size: 11px;
+  font-size: 13px;
   color: #666;
   margin-top: 12px;
 }
