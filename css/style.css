@@ -44,16 +44,16 @@ header {
 }
 
 .header-icon:nth-child(1) {
-  top: 18%;
-  left: 6%;
-  font-size: 26px;
+  top: 12%;
+  left: 5%;
+  font-size: 30px;
   animation-delay: 0s;
 }
 
 .header-icon:nth-child(2) {
-  top: 18%;
-  right: 6%;
-  font-size: 26px;
+  top: 30%;
+  right: 5%;
+  font-size: 22px;
   animation-delay: 1s;
 }
 
