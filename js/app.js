@@ -14,14 +14,14 @@ document.addEventListener("DOMContentLoaded", () => {
 function aplicarVariaveisCss() {
   const r = document.documentElement.style;
   const c = CONFIG.cores;
-  r.setProperty("--verde",       c.verde);
-  r.setProperty("--rosa",        c.rosa);
-  r.setProperty("--rosa-claro",  c.rosaClaro);
-  r.setProperty("--fundo",       c.fundo);
-  r.setProperty("--texto",       c.texto);
+  r.setProperty("--verde", c.verde);
+  r.setProperty("--rosa", c.rosa);
+  r.setProperty("--rosa-claro", c.rosaClaro);
+  r.setProperty("--fundo", c.fundo);
+  r.setProperty("--texto", c.texto);
   r.setProperty("--texto-suave", c.textoSuave);
   r.setProperty("--font-titulo", CONFIG.fonts.titulo);
-  r.setProperty("--font-corpo",  CONFIG.fonts.corpo);
+  r.setProperty("--font-corpo", CONFIG.fonts.corpo);
 }
 
 // ── HEADER ───────────────────────────────────────────────────
@@ -39,7 +39,7 @@ function montarHeader() {
       </div>`;
   }
 
-  document.getElementById("brandNome").textContent   = b.nome;
+  document.getElementById("brandNome").textContent = "";
   document.getElementById("brandSlogan").textContent = b.slogan;
 
   const igLink = document.getElementById("igLink");
@@ -129,7 +129,7 @@ window.filtrarProdutos = filtrarProdutos;
 // ── RODAPÉ ───────────────────────────────────────────────────
 function montarRodape() {
   const b = CONFIG.brand;
-  document.getElementById("footerNome").textContent   = b.nome;
+  document.getElementById("footerNome").textContent = b.nome;
   document.getElementById("footerSlogan").textContent = b.slogan;
   const footerIg = document.getElementById("footerIg");
   footerIg.href = b.instagram;
