@@ -23,7 +23,7 @@ body {
 /* ── HEADER ── */
 header {
   background: linear-gradient(160deg, #fff 0%, var(--rosa-claro) 100%);
-  padding: 48px 24px 40px;
+  padding: 28px 20px 24px;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -44,53 +44,18 @@ header {
 }
 
 .header-icon:nth-child(1) {
-  top: 8%;
-  left: 4%;
-  font-size: 32px;
+  top: 18%;
+  left: 6%;
+  font-size: 26px;
   animation-delay: 0s;
 }
 
-/* bolsa    */
 .header-icon:nth-child(2) {
-  top: 42%;
-  left: 3%;
-  font-size: 24px;
+  top: 18%;
+  right: 6%;
+  font-size: 26px;
   animation-delay: 1s;
 }
-
-/* caixa    */
-.header-icon:nth-child(3) {
-  top: 8%;
-  right: 4%;
-  font-size: 26px;
-  animation-delay: 0.5s;
-}
-
-/* etiqueta */
-.header-icon:nth-child(4) {
-  top: 42%;
-  right: 5%;
-  font-size: 28px;
-  animation-delay: 1.5s;
-}
-
-/* lupa     */
-.header-icon:nth-child(5) {
-  top: 25%;
-  left: 6%;
-  font-size: 22px;
-  animation-delay: 2s;
-}
-
-/* carrinho */
-.header-icon:nth-child(6) {
-  top: 25%;
-  right: 6%;
-  font-size: 22px;
-  animation-delay: 2.5s;
-}
-
-/* estrela  */
 
 @keyframes floatIcon {
 
@@ -384,21 +349,21 @@ header .slogan {
 }
 
 .btn-shopee {
-  background: #fff;
-  color: #ee4d2d;
+  background: #ee4d2d;
+  color: white;
 }
 
 .btn-shopee:hover {
-  background: #fff5f3;
+  background: #d84324;
 }
 
 .btn-ml {
-  background: #fff;
-  color: #d4930a;
+  background: #ffe600;
+  color: #333;
 }
 
 .btn-ml:hover {
-  background: #fffbf0;
+  background: #f5dc00;
 }
 
 /* ── ESTADO VAZIO ── */
