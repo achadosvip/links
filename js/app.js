@@ -104,7 +104,19 @@ function filtrarProdutos() {
   cards.forEach(card => {
     const match = card.dataset.busca.includes(termo);
     card.style.display = match ? "" : "none";
-    if (match) visiveis++;
+
+    if (match) {
+      visiveis++;
+      if (termo.length > 0) {
+        card.classList.remove("destacado");
+        void card.offsetWidth; // força reflow para reiniciar animação
+        card.classList.add("destacado");
+      } else {
+        card.classList.remove("destacado");
+      }
+    } else {
+      card.classList.remove("destacado");
+    }
   });
 
   document.getElementById("emptyState").style.display =
