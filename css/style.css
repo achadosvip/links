@@ -159,18 +159,20 @@ header .slogan {
   width: 100%;
   padding: 14px 48px 14px 18px;
   border-radius: 999px;
-  border: 2px solid var(--rosa-claro);
-  background: white;
+  border: 1.5px solid rgba(192, 128, 128, 0.18);
+  background: rgba(255, 255, 255, 0.82);
   font-family: var(--font-corpo);
   font-size: 14px;
   color: var(--texto);
   outline: none;
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.05);
   transition: border-color 0.2s;
 }
 
 .search-wrapper input:focus {
   border-color: var(--rosa);
+  box-shadow: 0 0 0 4px rgba(192, 128, 128, 0.08);
+  background: white;
 }
 
 .search-wrapper input::placeholder {
@@ -215,8 +217,11 @@ header .slogan {
 }
 
 .product-card:hover {
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
-  transform: translateY(-2px);
+  box-shadow:
+    0 12px 32px rgba(0, 0, 0, 0.10),
+    0 4px 12px rgba(0, 0, 0, 0.04);
+
+  transform: translateY(-4px) scale(1.01);
 }
 
 .product-card.destacado {
@@ -241,11 +246,6 @@ header .slogan {
     opacity: 1;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
   }
-}
-
-.product-card:hover {
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.14);
-  transform: translateY(-2px);
 }
 
 .product-header {
@@ -287,6 +287,13 @@ header .slogan {
   height: 100%;
   object-fit: cover;
   border-radius: 14px;
+
+  transition: transform 0.35s ease;
+
+}
+
+.product-card:hover .product-thumb img {
+  transform: scale(1.06);
 }
 
 .product-info {
@@ -444,4 +451,38 @@ footer a {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.featured-card {
+  border: 2px solid #f5d76e;
+
+  box-shadow:
+    0 8px 28px rgba(245, 215, 110, 0.18),
+    0 4px 18px rgba(0, 0, 0, 0.05);
+
+  transform: scale(1.01);
+}
+
+.vip-badge {
+  display: flex;
+  align-items: center;
+
+  width: fit-content;
+
+  margin-bottom: 6px;
+
+  padding: 4px 10px;
+
+  border-radius: 999px;
+
+  background: rgba(245, 215, 110, 0.18);
+
+  color: #9c6b00;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  letter-spacing: 0.4px;
+
+  backdrop-filter: blur(6px);
 }

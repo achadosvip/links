@@ -54,7 +54,7 @@ function montarProdutos() {
 
   CONFIG.produtos.forEach((p, i) => {
     const card = document.createElement("div");
-    card.className = "product-card";
+    card.className = `product-card ${p.featured ? "featured-card" : ""}`;
     card.style.animationDelay = `${i * 0.1}s`;
 
     // Termos de busca: id, "prod 001", nome, tags
@@ -80,6 +80,9 @@ function montarProdutos() {
       <div class="product-header">
         ${thumbHtml}
         <div class="product-info">
+
+      ${p.badge ? `<div class="vip-badge">${p.badge}</div>` : ""}
+
           <span class="product-badge">Prod ${p.id}</span>
           <h3>${p.nome}</h3>
           <p class="desc">${p.descricao}</p>

@@ -66,6 +66,10 @@ const CONFIG = {
       vendidos: "",
       emoji: "",
       imagem: "001.png",
+
+      featured: true,
+      badge: "💎 Escolha VIP",
+
       shopee: "https://s.shopee.com.br/4qBkXIsc93",
       ml: "https://meli.la/1PZ3o9m",
       tags: "taça vidro mesa elegante diamond âmbar",
