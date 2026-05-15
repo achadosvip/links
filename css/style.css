@@ -337,19 +337,23 @@ header .slogan {
 
   gap: 8px;
 
-  padding: 14px 10px;
+  min-height: 64px;
+
+  padding: 12px 8px;
 
   font-family: var(--font-titulo);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
 
   text-decoration: none;
 
   transition: all 0.2s ease;
 
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
 
   text-align: center;
+
+  white-space: nowrap;
 }
 
 .product-links a:first-child {
