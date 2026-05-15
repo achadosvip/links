@@ -373,12 +373,7 @@ header .slogan {
 .btn-ml:hover {
   background: #f5dc00;
 }
-.btn-icon {
-  width: 60px;
-  height: 60px;
-  object-fit: contain;
-  border-radius: 12px;
-}
+
 /* ── ESTADO VAZIO ── */
 .empty-state {
   text-align: center;
