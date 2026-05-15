@@ -82,6 +82,10 @@ const CONFIG = {
       vendidos: "",
       emoji: "",
       imagem: "002.png",
+
+      featured: false,
+      badge: "",
+
       shopee: "https://s.shopee.com.br/60OKrSzY32",
       ml: "https://meli.la/1snYBy2",
       tags: "organizador giratório alimentos grãos compartimentos cozinha",
@@ -94,6 +98,10 @@ const CONFIG = {
       vendidos: "3mil+ vendidos",
       emoji: "",
       imagem: "003.png",
+
+      featured: false,
+      badge: "",
+
       shopee: "https://s.shopee.com.br/50Vtc2K31R",
       ml: "https://meli.la/2vUsFpW",
       tags: "tempero inox pote armário cozinha giratório organização",
