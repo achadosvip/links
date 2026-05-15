@@ -89,10 +89,10 @@ function montarProdutos() {
           <div class="product-stars">${starsHtml}</div>
         </div>
       </div>
-      
+
       <div class="product-links">
-  <a href="${p.shopee}" target="_blank" class="btn-shopee">🛒 Ver na Shopee</a>
-  <a href="${p.ml}"     target="_blank" class="btn-ml">📦 Ver no Mercado Livre</a>
+  <a href="${p.shopee}" target="_blank" class="btn-shopee">🛒 Shopee</a>
+  <a href="${p.ml}"     target="_blank" class="btn-ml">📦 Mercado Livre</a>
 </div>`;
 
     lista.appendChild(card);
